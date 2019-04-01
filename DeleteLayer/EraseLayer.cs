@@ -9,7 +9,7 @@ namespace DeleteLayer
 {
     public class EraseLayer
     {
-        [CommandMethod("EraseLayer")]
+        [CommandMethod("ELL")]
         public void Program()
         {
             Database db = Application.DocumentManager.MdiActiveDocument.Database;
